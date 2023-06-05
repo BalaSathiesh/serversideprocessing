@@ -22,6 +22,7 @@ Step 6:
 Publish the website in the given URL.
 
 PROGRAM :
+```
 math.html
 
 <title>Area of Rectangle</title> <style type="text/css"> body { background-color:red; } .edge { width: 1440px; margin-left: auto; margin-right: auto; padding-top: 250px; padding-left: 300px; } .box { display:block; border: Thick dashed lime; width: 500px; min-height: 300px; font-size: 20px; background-color:blue; } .formelt{ color:orange; text-align: center; margin-top: 7px; margin-bottom: 6px; } h1 { color:rgb(255, 0, 179); text-align: center; padding-top: 20px; } </style>
@@ -38,7 +39,7 @@ from django.shortcuts import render def rectarea(request): context={} context['a
 urls.py
 
 from django.contrib import admin from django.urls import path from myapp import views urlpatterns=[ path('admin/',admin.site.urls), path('areaofrectangle/',views.rectarea,name="areaofrectangle"), path('',views.rectarea,name="areaofrectangleroot") ]
-
+```
 ## OUTPUT:
 ![Screenshot (32)](https://github.com/BalaSathiesh/serversideprocessing/assets/128462891/0d332694-6688-428b-9dec-718253e2c953)
 ![Screenshot (33)](https://github.com/BalaSathiesh/serversideprocessing/assets/128462891/316c538a-c3eb-4a91-9d2a-0c048c673aa8)
