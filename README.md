@@ -20,7 +20,6 @@ Create a HTML file of forms.
 
 Step 6:
 Publish the website in the given URL.
-
 PROGRAM :
 ```
 math.html
@@ -43,8 +42,6 @@ from django.contrib import admin from django.urls import path from myapp import 
 ## OUTPUT:
 ![Screenshot (32)](https://github.com/BalaSathiesh/serversideprocessing/assets/128462891/0d332694-6688-428b-9dec-718253e2c953)
 ![Screenshot (33)](https://github.com/BalaSathiesh/serversideprocessing/assets/128462891/316c538a-c3eb-4a91-9d2a-0c048c673aa8)
-
-
 
 ## Result:
 program excuted successfully
